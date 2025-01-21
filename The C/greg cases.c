@@ -2,7 +2,7 @@
 
 
 int main() {
-    int gregPeakLevel = 1;
+    int gregPeakLevel = 0;
 
 
     switch (gregPeakLevel) {
@@ -12,8 +12,10 @@ int main() {
         case 2:
             printf("you are level 2 peak");
             break;
-        case 3
+        case 3:
             printf("you are level 3 peak");
             break;
+        default:
+            printf("I love gay people so peak");
     }
 }
